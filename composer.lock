@@ -4,8 +4,39 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2cbf87832cba7cd268155723a525543",
+    "content-hash": "49e0fb4029f4e492cb0c2fa16fb5be74",
     "packages": [
+        {
+            "name": "agomezmoron/simple_git",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agomezmoron/simple_git.git",
+                "reference": "1f64daeabc4af98186e44ded147b5d67639d7de3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agomezmoron/simple_git/zipball/1f64daeabc4af98186e44ded147b5d67639d7de3",
+                "reference": "1f64daeabc4af98186e44ded147b5d67639d7de3",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alejandro Gómez Morón",
+                    "email": "amoron@emergya.com"
+                }
+            ],
+            "description": "Drupal module to have a simple interface to connect your Git services accounts.",
+            "support": {
+                "source": "https://github.com/agomezmoron/simple_git/tree/8.x-1.x",
+                "issues": "https://github.com/agomezmoron/simple_git/issues"
+            },
+            "time": "2017-03-27 13:28:15"
+        },
         {
             "name": "alchemy/zippy",
             "version": "0.4.3",
@@ -1644,7 +1675,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/simple_oauth-8.x-2.0-alpha2.zip",
-                "reference": null,
+                "reference": "8.x-2.0-alpha2",
                 "shasum": "90ca27408d0887d4792456ed1b4e59c4f8fbb628"
             },
             "require": {
@@ -6243,7 +6274,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "agomezmoron/simple_git": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
