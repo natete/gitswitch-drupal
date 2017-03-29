@@ -1,0 +1,17 @@
+uuid: 1b792f65-d7aa-49ac-b7b4-f80524e98f8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - simple_git
+    - simple_oauth
+id: simple_git_pull_request_resource
+plugin_id: simple_git_pull_request_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2

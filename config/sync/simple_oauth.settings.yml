@@ -1,0 +1,5 @@
+expiration: 3600
+_core:
+  default_config_hash: RViccNnarW8cWYl6LGhaqdWxqCg0rNzyT3I6MtGB9ug
+public_key: /home/igonzalez/Proyectos/git-switch/project/drupal-min/web/keys/public.key
+private_key: /home/igonzalez/Proyectos/git-switch/project/drupal-min/web/keys/private.key

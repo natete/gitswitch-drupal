@@ -1,0 +1,16 @@
+uuid: 530f7e11-b5f4-408e-ac73-565a3f60414d
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - simple_oauth
+id: entity.rest_resource_config
+plugin_id: 'entity:rest_resource_config'
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2

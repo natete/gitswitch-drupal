@@ -1,0 +1,27 @@
+uuid: 6bb92de2-b5e9-4fcf-b542-3ad9d4536cea
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - simple_git
+    - simple_oauth
+id: simple_git_account_resource
+plugin_id: simple_git_account_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2
+  POST:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2
+  DELETE:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2

@@ -1,0 +1,8 @@
+GITHUB:
+  app_id: cf0f72380b77a0ae16e9
+  app_secret: c6962314dc7945e8f2f09888d6ee61c352e867c8
+  app_url_redirect: ''
+GITLAB:
+  app_id: ''
+  app_secret: ''
+  app_url_redirect: ''

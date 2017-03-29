@@ -1,0 +1,17 @@
+uuid: e055c5f1-0175-49ea-bd52-3e7ee347fd01
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - simple_git
+    - simple_oauth
+id: simple_git_connector_resource
+plugin_id: simple_git_connector_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2

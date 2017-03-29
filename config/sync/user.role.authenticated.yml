@@ -1,0 +1,17 @@
+uuid: 9938610c-685a-49dc-b2d1-096750e8f831
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'restful delete simple_git_account_resource'
+  - 'restful get simple_git_account_resource'
+  - 'restful get simple_git_connector_resource'
+  - 'restful get simple_git_pull_request_resource'
+  - 'restful post simple_git_account_resource'
