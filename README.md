@@ -39,6 +39,8 @@ Restore the database dump:
 ../vendor/bin/drush sql-cli < ../dump.sql
 ```
 
+Remove the given oauth client and add a new one with your own keys.
+
 ## Synchronize
 
 From the project directory (under web), pull the changes:
