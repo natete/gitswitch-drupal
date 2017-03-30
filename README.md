@@ -45,10 +45,11 @@ From the project directory (under web), pull the changes:
 ```bash
 git pull --rebase origin [branch]
 ```
+or using PhpStorm VCS->Update Project->Rebase
 
 Fetch dependencies:
 ```bash
-composer install
+composer update
 ```
 
 Import Drupal configurations:
