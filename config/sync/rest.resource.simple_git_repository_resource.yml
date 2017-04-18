@@ -1,0 +1,27 @@
+uuid: c02da08a-8437-4c0d-b1b3-065dbe9bce31
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - simple_git
+    - simple_oauth
+id: simple_git_repository_resource
+plugin_id: simple_git_repository_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2
+  POST:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2
+  DELETE:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2
