@@ -1,5 +1,5 @@
 expiration: 3600
 _core:
   default_config_hash: RViccNnarW8cWYl6LGhaqdWxqCg0rNzyT3I6MtGB9ug
-public_key: /home/igonzalez/Proyectos/git-switch/project/gitswitch/gitswitch-drupal/web/keys/public.key
-private_key: /home/igonzalez/Proyectos/git-switch/project/gitswitch/gitswitch-drupal/web/keys/private.key
+public_key: /home/ebarrera/Documentos/Proyect/gitswitch/gitswitch-drupal/web/ddd-keys/public.key
+private_key: /home/ebarrera/Documentos/Proyect/gitswitch/gitswitch-drupal/web/ddd-keys/private.key

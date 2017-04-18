@@ -1,7 +1,8 @@
 GITHUB:
   app_id: cf0f72380b77a0ae16e9
-  app_secret: c6962314dc7945e8f2f09888d6ee61c352e867c8
+  app_secret: cb44ba7ef97fc252ef148c84f0971ba5b8ae8d7f
   app_url_redirect: ''
+  app_name: 'GitHub Dashboard'
 GITLAB:
   app_id: ''
   app_secret: ''

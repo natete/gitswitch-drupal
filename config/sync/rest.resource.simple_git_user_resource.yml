@@ -1,0 +1,17 @@
+uuid: ada59ea1-843d-46ec-b03b-ad37d5b18241
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - simple_git
+    - simple_oauth
+id: simple_git_user_resource
+plugin_id: simple_git_user_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - oauth2

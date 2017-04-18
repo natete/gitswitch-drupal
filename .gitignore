@@ -22,3 +22,6 @@
 
 # Ignore local log
 log/
+
+# Ignore keys file directory
+web/ddd-keys/
